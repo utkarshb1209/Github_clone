@@ -1,0 +1,28 @@
+.homePage {
+    background-image: url('https://wallpaperaccess.com/full/3414990.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+form>input{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    background-color: transparent;
+    margin-right: 10px;
+    color: white;
+}
+
+input::placeholder{
+    color: white
+}
+
+form>a>button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+}
